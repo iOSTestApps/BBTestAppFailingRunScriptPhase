@@ -109,6 +109,7 @@
 				8357C3B11E4646A4001162B8 /* Sources */,
 				8357C3B21E4646A4001162B8 /* Frameworks */,
 				8357C3B31E4646A4001162B8 /* Resources */,
+				8357C3DB1E4646AE001162B8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -198,6 +199,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8357C3DB1E4646AE001162B8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo 'error: Some bad hombres here'";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8357C3B11E4646A4001162B8 /* Sources */ = {
